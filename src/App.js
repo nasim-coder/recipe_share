@@ -1,8 +1,10 @@
-import Header from './components/Header'
+import Navigation from './components/Navigation';
+import Featured from './components/Featured';
 function App() {
   return (
     <div className="App">
-    <Header />
+      <Navigation />
+      <Featured />
     </div>
   );
 }
