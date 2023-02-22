@@ -13,10 +13,13 @@
     padding:1.5rem;
 }
 
-.feature-image{
+.feature-image {
     width: 100%;
     height: auto;
 }
-featured-recipe-name{
 
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }

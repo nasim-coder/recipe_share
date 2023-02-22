@@ -8,10 +8,10 @@ const Featured = () => {
       <div className="feature-img-container">
             <img src={featureImg} className="feature-image" alt='feature' />
             <div className="feature-div">
-                <h1 className='featured-recipe-name'>Mutton Biryani</h1>
+            <h1 className='featured-recipe-name'>Mutton Biryani</h1>
           <p className="m-0">Hyderabadi mutton biryani is a classic dish made by layering rice over slow cooked mutton gravy</p>
           <Button variant="outline-success float-end">Know More</Button>{''}
-            </div>
+          </div>
       </div>
     </>
   )
