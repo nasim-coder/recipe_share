@@ -1,3 +1,7 @@
+html, body {
+    background-color:#f8f9fa;
+}
+
 .feature-img-container {
     position: relative;
 }
@@ -16,10 +20,4 @@
 .feature-image {
     width: 100%;
     height: auto;
-}
-
-.cards{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }

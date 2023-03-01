@@ -10,7 +10,7 @@ const Recent = () => {
   return (
     <>
       <h1 className='recent-recipe'>Recent Recipes</h1>
-      <div className='cards'>
+      <div className='cards row justify-content-around'>
         <Dish title={title} description={description} dish_image={dish_image} />
         <Dish title={title} description={description} dish_image={dish_image} />
         <Dish title={title} description={description} dish_image={dish_image} />
