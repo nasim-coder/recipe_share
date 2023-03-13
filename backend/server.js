@@ -11,4 +11,4 @@ app.use(morgan('tiny'))
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }))
 app.use('/', allRoute);
-app.listen(PORT, () => console.log('server is running'));
+app.listen(PORT, () => console.log(`server is running on ${PORT}`));
