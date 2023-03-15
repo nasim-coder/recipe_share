@@ -19,7 +19,7 @@ const ratingSchema = new mongoose.Schema({
         type: mongoose.Types.ObjectId,
         ref: 'Recipe'
     },
-});
+}, {timestamps: true});
 
 const Rating = mongoose.model('Rating', ratingSchema);
 module.exports = Rating;
