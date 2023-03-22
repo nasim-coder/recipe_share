@@ -8,7 +8,7 @@ const RecipeSchema = new mongoose.Schema(
         description: {
             type: String,
         },
-        categoryId: {
+        category: {
             type: mongoose.Types.ObjectId,
             ref: 'Category'
         },
